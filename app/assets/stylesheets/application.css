@@ -37,14 +37,20 @@ footer {
   background-size: 100%;
 }
 
+.container#bg2 {
+  width: 100%;
+  height: auto;
+}
+
 .whatgives{
+  width: 100%;
+  height: auto;
   color:black;
   border:5px dotted;
   background-image:
     url("http://eskipaper.com/images/hdr-background-1.jpg");
   background-attachment:fixed;
 }
-
 .whatever {
   text-align: center;
   margin: 0 auto;
@@ -109,7 +115,7 @@ img {
 }
 
 body {
-  position: relative;
+  size: 100%;
 }
 
 .thumbnail {
@@ -130,4 +136,9 @@ a:link {
 
 .container {
   margin: .5%;
+}
+
+#coding_picture {
+  width: 100%;
+  height: auto;
 }
